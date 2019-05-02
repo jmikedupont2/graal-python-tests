@@ -1,0 +1,19 @@
+Please note: This Python implementation is in the very early stages, and can run little more than basic benchmarks at this point.
+Traceback (most recent call last):
+  File "test_email.py", line 1, in <module 'test_email.py'>
+    import email.quoprimime
+  File "_bootstrap.py", line 1086, in __import__
+  File "_bootstrap.py", line 1006, in _gcd_import
+  File "_bootstrap.py", line 983, in _find_and_load
+  File "_bootstrap.py", line 967, in _find_and_load_unlocked
+  File "_bootstrap.py", line 677, in _load_unlocked
+  File "_bootstrap_external.py", line 731, in exec_module
+  File "_bootstrap.py", line 219, in _call_with_frames_removed
+  File "quoprimime.py", line 60, in <module 'quoprimime.py'>
+    for c in b'-!*+/' + ascii_letters.encode('ascii') + digits.encode('ascii'):
+  File "str", line 401, in encode
+  File "_codecs", line 100, in encode
+  File "_codecs", line 91, in __encoder
+  File "_codecs", line 87, in __codec_getitem
+  File "_codecs", line 78, in lookup
+LookupError: unknown encoding: ascii
